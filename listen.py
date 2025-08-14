@@ -63,7 +63,7 @@ while True:
         speaker.Speak(f"The date is {date}")
         break
 
-    if "what day is it" in text or "what day is today" in text:
+    if "what day is it" in text or "what day is todays" in text:
         day = datetime.datetime.now().strftime("%A")
         print(f"The day today is {day}")
         speaker.Speak(f"the day today is {day}")
